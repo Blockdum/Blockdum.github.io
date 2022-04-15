@@ -64,7 +64,7 @@ console.log(''
  +'navigator.userAgent = '+navigator.userAgent+'<br>'
 )
 
-// This script sets OSName variable as follows:
+// This script sets OSName variable as follows: 
 // "Windows"    for all versions of Windows
 // "MacOS"      for all versions of Macintosh OS
 // "Linux"      for all versions of Linux
