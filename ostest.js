@@ -69,7 +69,7 @@ console.log(''
 // "MacOS"      for all versions of Macintosh OS
 // "Linux"      for all versions of Linux
 // "UNIX"       for all other UNIX flavors 
-// "Unknown OS" indicates failure to detect the OS
+// "Unknown OS" indicates failure to detect the OS 
 
 var OSName="Unknown OS";
 if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
