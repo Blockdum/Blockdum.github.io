@@ -65,7 +65,6 @@ console.log(''
 )
 
 // This script sets OSName variable as follows:
-//
 // "Windows"    for all versions of Windows
 // "MacOS"      for all versions of Macintosh OS
 // "Linux"      for all versions of Linux
