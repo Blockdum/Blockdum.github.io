@@ -385,6 +385,16 @@
 
 /* Services Section CSS */
 
+
+.message p{
+  color: #fff;
+
+}
+
+.message h1{
+  color: #fff;
+}
+
 .sevices {
   background: #141414;
   display: flex;
