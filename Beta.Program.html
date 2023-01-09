@@ -6,6 +6,9 @@
     <title>Blockdum Beta Program</title>
     <link rel='icon' href='Blockdum.png'/>
     <link rel="stylesheet" href="Beta.Programstyles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
 
   </head>
  
@@ -19,31 +22,33 @@
       <h1>
         ⠀
       </h1>
-      <h1>
-        ⠀
-      </h1>
-      <h1>
-        ⠀
-      </h1>
       <h1 style="text-align:center">Blockdum is loading! Thanks For Your Patient!</h1>
   </div>  
   </body>
   <body>
-  <header>
-    <div class="Container">
-      <nav>
-        <ul>
-          <li><a href="Home" style="text-decoration: none;">Home</a></li>
-          
-          <li><a href="ToS" style="text-decoration: none;">Terms of service</a></li>
-          
-          <li><a href="Countdown"  style="text-decoration: none;">Beta Program</a></li>
-          
-          <li><a href="index"  style="text-decoration: none;">Log Out</a></li>
-        </ul>
-      </nav>
+   <!-- Navbar Section -->
+   <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/" id="navbar__logo"><img class="logo" src="Blockdum.png"> Blockdum</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="" class="navbar__links">Products</a>
+        </li>
+        <li class="navbar__item">
+          <a href="Beta.Preview.html" class="navbar__links">Beta</a>
+        </li>
+        <li class="navbar__btn"><a href="https://discord.com/api/oauth2/authorize?client_id=884231854113325077&redirect_uri=https%3A%2F%2Fkris-zhang-122507.github.io%2FBlockdum%2FHome.html&response_type=code&scope=identify%20email" class="button">Sign in</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
+  <!-- End Navbar Section -->
   </body>
       <body>
         <h1>
@@ -79,41 +84,75 @@
     </h1>
   </body>
   <body>
-    <div class="footer-container">
-      <div class="footer">
-        <div class="footer-heading">
+    <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
           <h2>About Us</h2>
-          <samp>
-            We are a small company that is making the game Blockdum. 
-          </samp>
-          <samp>
-            There is currently only 2 people working on this project. 
-          </samp>
-          <samp>
-            Hope us all the best in our journey.
-          </samp>
-        </div>
-        <div class="footer-heading">
-          <h2>Web Links</h2>
-          <a href="Countdown">Beta Program</a>
-          <a href="ToS">Terms Of Service</a>
+          <a href="/">Our Story</a>
+          <a href="/">Our Team</a>
+          <a href="/">Our Values</a>
           <a href="Privacy">Privacy Policy</a>
-          <a href="index">Log out</a>
+          <a href="ToS">Terms and Conditions</a>
         </div>
-        <div class="footer-heading">
-          <h2>Game Links</h2>
-          <a href="https://pinkfluff432.itch.io/blockdum-beta">Blockdum Download</a>
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="/">Email</a>
+          <a href="/">Form</a>
+          <a href="/">Feedback</a>
+          <a href="/">Tech Support</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Products</h2>
+          <a href="/">Sticky Paper</a>
+          <a href="/">Car Game</a>
+          <a href="">Comming Soon</a>
+          <a href="">Comming Soon</a>
+          <a href="">Comming Soon</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Social Media</h2>
+          <a href="">Instagram</a>
+          <a href="">Facebook</a>
+          <a href="">Youtube</a>
+          <a href="">Twitter</a>
+          <a href="">Blockdum™</a>
         </div>
       </div>
     </div>
+    <div class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo"><img class="logo" src="Blockdum.png"> Blockdum</a>
+        </div>
+        <p class="website__rights">©Blockdum 2022. All Rights Reserved</p>
+        <div class="social__icons">
+          <a href="/" id="social__icon--link" target="_blank">
+            <i class="fab fa-facebook"></i></a>
+          <a href="/" id="social__icon--link" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+          <a href="/" id="social__icon--link" target="_blank">
+            <i class="fab fa-twitter"></i></a>
+          <a href="/" id="social__icon--link" target="_blank">
+            <i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Footer Section -->
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
       setTimeout(function(){
           $('.loader_bg').fadeToggle();
-      }, 3000);
+      }, 20000);
   </script>
-    <body>
     <script src="https://kc8w70f0ddy6.statuspage.io/embed/script.js"></script>
+  </body>
+  <script src="app.js"></script>
   </body>
 </html>
